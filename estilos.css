@@ -1,0 +1,115 @@
+body{
+    margin: 0;
+}
+
+
+.nave{
+    display: flex;    
+    background-color: blue;
+    justify-content:space-between;
+    align-items: center;
+}
+
+
+.lista{
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 15px 10px;
+    
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.lista a{
+    color: white;
+    text-decoration: none;
+}
+.lista li{
+    text-decoration: none;
+    color: transparent;
+    padding: 12px;
+}
+
+
+.logo{
+    margin: 15px;
+    padding: 5px;
+    width: 200px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width: 60px;
+}
+.logo span{
+    color: bisque;
+    padding: 15px;
+
+}
+
+
+.banner{
+    text-align: center;
+    margin: 20px;
+}
+.banner p{
+    margin: 0;
+}
+
+
+.Descripcion{
+    text-align: center;
+    padding: 15px 0px;
+    margin: 10px 200px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+
+}
+.Descripcion img{
+    width: 400px;
+    padding: 20px;
+    margin: 10px 15px;
+}
+.Descripcion p{
+    padding: 0px 20px;
+    margin: 0px ;
+}
+
+
+.Esp1{
+    display: flex;
+}
+.tabla td{
+    padding: 20px;
+    margin: 100px;
+}
+.tabla img{
+    width: 150px;
+}
+
+
+.Video{
+    display: flex;
+}
+.Video div{
+    
+    max-width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * .5);
+    padding-left: calc(var(--bs-gutter-x) * .5);
+    margin-top: var(--bs-gutter-y);
+}
+.Video div img{
+    width: 400px;
+}
+
+
+.Contacto{
+    padding: 10px;
+    margin: 10px;
+
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
